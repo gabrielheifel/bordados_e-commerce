@@ -1,0 +1,40 @@
+.page-header {
+   height: 10%;
+   width: 100%;
+
+   margin-top: 1rem;
+
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+   width: 50%;
+
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   font-size: 1.2rem;
+
+   font-family: Prata;
+   color: #191919;
+}
+
+.nav-links, .login{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 40%;
+}
+
+.nav-links {
+   margin-right: 2rem;
+}
+
+.nav-links a, .login a {
+   color: #191919;
+}
+
+.login input {
+   background: #ded2bd;
+   width: 10rem;
+}
