@@ -2,10 +2,13 @@
    height: 10%;
    width: 100%;
 
-   margin-top: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
 
    display: flex;
    align-items: center;
+
+   background: #e8e2d7;
 }
 
 .logo {
