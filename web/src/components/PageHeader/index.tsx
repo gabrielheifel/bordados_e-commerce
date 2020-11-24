@@ -9,7 +9,7 @@ function PageHeader() {
    return(
       <header className="page-header">
          {/* <img src={logoImg} alt="Tulipa Bordados"/>   */}
-         <a className="logo" href="#">Tulipa Bordados</a>
+         <Link className="logo" to="/">Tulipa Bordados</Link>
 
          <ul className="nav-links">
             <li><Link to="/">Home</Link></li>
@@ -17,16 +17,19 @@ function PageHeader() {
             <li><Link to="#">Contanto</Link></li>
          </ul>
 
+         <input type="" name="Pesquisa" id="pesquisa" />
+
          <ul className="login">
-            <input type="" name="Pesquisa" id="pesquisa" />
             <li>
                <Link to="#">
                   <FiUser size={24} color="#191919"/>
+                  <span>Mrs Nome</span>
                </Link>
             </li>
             <li>
                <Link to="#">
                   <FiShoppingBag size={24} color="#191919" />
+                  <span>Carrinho</span>
                </Link>
             </li>
          </ul>

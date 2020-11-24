@@ -1,19 +1,21 @@
 .enter-product {
-   width: 30%;
-   margin-top: 40px;
+   /* width: 30%; */
+   /* margin-top: 40px; */
    padding: 1rem;
-   /* border-radius: 20px; */
 
    display: flex;
    justify-content: center;
    align-items: center;
 
    /* text-transform: uppercase; */
-   color: #fefdfd;
-   background-color: #a38454;
+   color: #535353;
+   background-color: #fff;
+   border-style: double;
+   border-color: #f2a5bb;
 }
 
 .enter-product:hover {
-   background-color: #775117;
+   background-color: #f2a5bb;
+   border-color: #fff;
    transition: 0.3s;
 }
