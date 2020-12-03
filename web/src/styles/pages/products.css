@@ -16,23 +16,26 @@
 }
 
 .content-wrapper .conteudo {
-   height: 90%;
-
-   display: flex;
-   /* justify-content: space-around; */
-}
-
-.conteudo aside {
-
-   padding: 10px 40px 40px;
-   box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+   margin-top: 2rem;
    display: flex;
    flex-direction: column;
-   justify-content: space-around;
+   /* justify-content: space-evenly; */
+   
+}
+
+.conteudo .nav-bar {
+   margin-bottom: 1rem;
+
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-evenly;
 }
 
 .conteudo .bordados {
    display: flex;
+   align-items: center;
+   justify-content: center;
    /* flex-direction: column; */
    
 }

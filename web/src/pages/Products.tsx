@@ -13,12 +13,12 @@ function Products() {
                <PageHeader />
             </div>
             <div className="conteudo">
-               <aside>
+               <div className="nav-bar">
                   <h3>Opcao tamanho</h3>
                   <h3>Opcao estilo</h3>
                   <h3>Opcao cor</h3>
                   <h3>Opcao preço</h3>
-               </aside>
+               </div>
 
                {/* vai precisar passar alguns parametros */}
                <div className="bordados">

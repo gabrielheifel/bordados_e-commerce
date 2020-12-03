@@ -1,0 +1,19 @@
+#page-contact {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-products .letter {   
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+}
+/* textarea, input, button {
+  line-height: 1.5rem;
+} */
