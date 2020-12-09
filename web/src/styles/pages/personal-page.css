@@ -1,0 +1,51 @@
+#personal-page {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#personal-page .content-wrapper {   
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+}
+
+#personal-page .content-wrapper .container {
+  /* width: 100%; */
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+#personal-page .content-wrapper .container .bar-info{
+  background: #fff;
+  width: 20%;
+  height: 500px;
+  border-right: 1px solid #f2a5bb;
+  border-top: 1px solid #f2a5bb;
+}
+
+.bar-info ul {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.bar-info ul li {
+  font-size: 25px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.bar-info ul li a {
+  color: #191919;
+  
+}

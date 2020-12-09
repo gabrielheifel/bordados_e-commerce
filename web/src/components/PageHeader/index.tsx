@@ -19,13 +19,13 @@ function PageHeader() {
          <ul className="login">
             <input type="text" name="Pesquisa" id="pesquisa" placeholder="Pesquisar" />
             <li>
-               <Link to="#">
+               <Link to="/login">
                   <FiUser size={24} color="#191919"/>
                   <span>Mrs Nome</span>
                </Link>
             </li>
             <li>
-               <Link to="#">
+               <Link to="/carrinho">
                   <FiShoppingBag size={24} color="#191919" />
                   <span>Carrinho</span>
                </Link>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaInstagram } from 'react-icons/fa';
 
 import PageHeader from '../components/PageHeader';
 
@@ -9,28 +10,21 @@ function Contact() {
     <div id="page-contact">
       <article className="content-wrapper">
         <div className="page-header">
-          <PageHeader />
+          <PageHeader />        
         </div>
-        <div className="letter">
-          <h1>Fale com a gente!</h1>
-          <p>
-            <textarea placeholder="Sua Mensagem..." ></textarea>
-          </p>
-          <div className="side">
-            <p>
-              <input type="text" placeholder="Seu Nome*" />
-            </p>
-            <p>
-              <input type="text" placeholder="Seu Email*" />
-            </p>
-            <p>
-              <button id="sendLetter">Enviar</button>
-            </p>
+        <main className="social">
+          <div className="instagram">
+            <a className="faviconIG" href="https://www.instagram.com/tulipa_bordados/?hl=pt-br" target="_blank" rel="noopener noreferrer">
+              <FaInstagram size={80} color="#191919" />
+            </a>
           </div>
-        </div>
+          <p>@tulipabordados</p>   
+          <div className="email">
+            <h3>E-mail:</h3>
+            <h2>contato@tulipabordados.com</h2>
+          </div>
+        </main>
       </article>
-      <div className="envelope-front"></div>
-      <div className="envelope-back"></div>
     </div>
   );
 }

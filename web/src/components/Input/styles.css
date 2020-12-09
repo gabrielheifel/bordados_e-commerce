@@ -1,0 +1,35 @@
+.input-block{
+   position: relative;
+}
+
+.input-block + .input-block{
+   margin-top: 1.4rem;
+   margin-bottom: 2.4rem;
+}
+
+.input-block label{
+   font-size: 18px;
+}
+
+.input-block input {
+   width: 100%;
+   height: 3.5rem;
+   margin-top: 0.8rem;
+   border-radius: 0.8rem;
+   background: #fff;
+   border: 1px solid #ffc0cb;
+   outline: 0;
+   padding: 0 1.6rem;
+   /* box-shadow: 1px 1px 10px #191919; */
+}
+
+.input-block:focus-within::after{
+   width: calc(100% - 3.2rem);
+   height: 2px;
+   content: '';
+   background: var(--color-primary-light);
+   position: absolute;
+   left: 1.6rem;
+   right: 1.6rem;
+   bottom: 0;
+}
