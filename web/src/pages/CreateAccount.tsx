@@ -8,11 +8,12 @@ import '../styles/pages/create-account.css';
 
 function CreateAccount() {
   return(
-    <div id="page-login">
+    <div id="page-create-account">
       <article className="content-wrapper">
         <div className="page-header">
           <PageHeader />
         </div>
+        <h2 className="tittle">Crie sua Conta</h2>
         <div className="info-container">
           <div className="personal-container">
             <Input name="nome" label="Nome*" />
@@ -27,9 +28,12 @@ function CreateAccount() {
             <Input name="estado" label="Estado*" />
           </div>
           <div className="address2-container">
-          <Input name="rua" label="Rua*" />
+            <Input name="rua" label="Rua*" />
             <Input name="numero" label="Número*" />
             <Input name="complemento" label="Complemento" />
+          </div>
+          <div className="send-button">
+            <ButtonGo text="Criar" to="/personal-page"/>
           </div>
         </div>
       </article>

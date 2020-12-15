@@ -1,4 +1,4 @@
-#page-login {
+#page-create-account {
   width: 100vw;
   height: 100vh;
   background: #fff;
@@ -9,24 +9,48 @@
   align-items: center;
 }
 
-#page-login .content-wrapper {   
+#page-create-account .content-wrapper {   
   width: 100%;
   max-width: 1200px;
   height: 100%;
 }
 
-.content-wrapper .info-container {
-  height: 100%;
+#page-create-account .tittle {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#page-create-account .content-wrapper .info-container {
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  border: 1px solid #191919;
+  border-radius: 15px;
+  padding: 2rem;
+  background: rgb(241,241,241);
 }
 
 .personal-container {
   width: 35%;
-  /* height: 70%; */
 }
 
 .address1-container, .address2-container {
   width: 20%;
+  height: 350px;
+}
+
+.send-button {
+  position: absolute;
+  bottom: -20%;
+  right: 15%;
+
+  width: 30%;
+}
+
+.send-button a {
+  text-transform: uppercase;
+  font-weight: 700;
 }

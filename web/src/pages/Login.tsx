@@ -14,6 +14,7 @@ function Login() {
         <div className="page-header">
           <PageHeader />
         </div>
+        <h2 className="tittle-login">Login</h2>
         <div className="login-container">
           <Input name="cpf" label="CPF" />
           <Input name="senha" label="Senha" />

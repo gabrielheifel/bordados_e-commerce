@@ -21,6 +21,12 @@
   align-items: center;
 }
 
+.content-wrapper .tittle-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
 .content-wrapper .login-container {
   width: 35%;
   height: 100%;

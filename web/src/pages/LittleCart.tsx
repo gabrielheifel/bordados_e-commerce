@@ -20,6 +20,10 @@ function LittleCart() {
             <h2>Seu Carrinho</h2>
             <CartProdBox />
             <CartProdBox />
+            <CartProdBox />
+            <CartProdBox />
+            <CartProdBox />
+            <CartProdBox />
           </div>
           <aside>
             <div className="prices-end">
