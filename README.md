@@ -6,4 +6,4 @@ E-commerce de bordados artesanais
 Projeto fullstack Typescript desenvolvido com:
   Frontend em React.js;
   Backend em Express.js;
-  Bando de Dados PostgreSQL.
+  Banco de Dados PostgreSQL.
