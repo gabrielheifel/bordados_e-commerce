@@ -8,3 +8,4 @@ Projeto fullstack Typescript desenvolvido com:
   Backend em Express.js;
   Banco de Dados PostgreSQL.
 
+![](web/src/images/landing.png)
