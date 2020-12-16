@@ -1,13 +1,13 @@
 import { Router } from 'express';
 const router = Router();
 
-import { getUserById } from './controllers/users-controller';
+import { getUserById, createUser } from './controllers/users-controller';
 import { getProduct } from './controllers/prod-controller';
 
 
-router.get('/products', getProduct);
-router.get('/user/id', getUserById);
-// router.post('/user', getUser);
+router.get('/produtos', getProduct);
+router.get('/user/:id', getUserById);
+router.post('/user', createUser);
 // router.put('/user:id', getUser);
 // router.delete('/user:id', getUser);
 

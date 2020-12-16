@@ -16,9 +16,9 @@ function Login() {
         </div>
         <h2 className="tittle-login">Login</h2>
         <div className="login-container">
-          <Input name="cpf" label="CPF" />
+          <Input name="cpf" label="Email" />
           <Input name="senha" label="Senha" />
-          <ButtonGo text="Login" to="/personal-page"/>
+          <ButtonGo text="Login" to="/user"/>
           <p>Não tem registro?<Link to="/create-account">Crie uma conta</Link></p>
         </div>
       </article>

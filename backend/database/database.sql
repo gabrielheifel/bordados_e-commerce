@@ -14,6 +14,7 @@ CREATE TABLE users(cpf, email, senha, pnome, snome, is_adm)(
   senha varchar(100) NOT NULL,
   pnome varchar(50) NOT NULL,
   snome varchar(50),
+  telefone varchar(13) UNIQUE,
   is_adm boolean NULL,
 
   PRIMARY KEY(id_user)
@@ -21,10 +22,10 @@ CREATE TABLE users(cpf, email, senha, pnome, snome, is_adm)(
 
 -- Inserindo dados tabela users
 
-INSERT INTO users VALUES
-  ( '12345678910', 'gabriel@gmail.com', '12345', 'Gabriel', 'Heifel', true ),
-  ( '10987654321', 'joao@outlook.com', '54321', 'Joao', 'Silva', false ),
-  ( '10987654201', '123@hotmail.com', 'senha123', 'Pedro', 'Silveira', false );
+INSERT INTO users(cpf, email, senha, pnome, snome, telefone, is_adm) VALUES
+  ( '12345678910', 'gabriel@gmail.com', '12345', 'Gabriel', 'Heifel', '53 99559-9559', true ),
+  ( '10987654321', 'joao@outlook.com', '54321', 'Joao', 'Silva', '', false ),
+  ( '10987654201', '123@hotmail.com', 'senha123', 'Pedro', 'Silveira', '53977776666', false );
 
 ----------------------------------------------
 -- Estrutura tabela Endereço

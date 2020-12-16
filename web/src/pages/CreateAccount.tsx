@@ -15,13 +15,20 @@ function CreateAccount() {
         </div>
         <h2 className="tittle">Crie sua Conta</h2>
         <div className="info-container">
+          <h3>Info Pessoais:</h3>
           <div className="personal-container">
-            <Input name="nome" label="Nome*" />
-            <Input name="sobrenome" label="Sobrenome" />
-            <Input name="cpf" label="CPF*" />
-            <Input name="email" label="E-mail*" />
-            <Input name="senha" label="Senha*" />
+            <div className="line1">
+              <Input name="nome" label="Nome*" />
+              <Input name="sobrenome" label="Sobrenome" />
+              <Input name="cpf" label="CPF*" />
+            </div>
+            <div className="line2">
+              <Input name="email" label="E-mail*" />
+              <Input name="senha" label="Senha*" />
+              <Input name="telefone" label="Telefone" />
+            </div>
           </div>
+          <h3>Endereço:</h3>
           <div className="address1-container">
             <Input name="cep" label="CEP*" />
             <Input name="cidade" label="Cidade*" />

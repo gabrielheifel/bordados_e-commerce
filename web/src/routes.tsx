@@ -19,7 +19,7 @@ function Routes() {
             <Route path="/login" component={Login}/>
             <Route path="/create-account" component={CreateAccount}/>
             <Route path="/carrinho" component={LittleCart}/>
-            <Route path="/personal-page" component={PersonalPage}/>
+            <Route path="/user" component={PersonalPage}/>
          </Switch>
       </BrowserRouter>
    );

@@ -7,3 +7,4 @@ Projeto fullstack Typescript desenvolvido com:
   Frontend em React.js;
   Backend em Express.js;
   Banco de Dados PostgreSQL.
+
